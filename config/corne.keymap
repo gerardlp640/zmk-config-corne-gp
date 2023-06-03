@@ -54,10 +54,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-     &kp ESCAPE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR   &kp PRCNT        &kp CARET        &kp AMPS  &kp KP_MULTIPLY         &kp LPAR  &kp RPAR    &kp BSPC
-         &trans    &trans  &trans    &trans    &trans      &trans      &kp PAGE_UP        &kp HOME     &kp UP_ARROW          &kp END    &trans      &trans
-&kp PRINTSCREEN    &trans  &trans    &trans    &trans      &trans    &kp PAGE_DOWN  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW    &trans  &kp DELETE
-                                   &kp LGUI    &trans  &kp RETURN        &kp SPACE          &trans         &kp RALT
+     &kp ESCAPE  &kp EXCL  &kp AT  &kp HASH            &kp DLLR            &kp PRCNT        &kp CARET        &kp AMPS  &kp KP_MULTIPLY         &kp LPAR  &kp RPAR    &kp BSPC
+         &trans    &trans  &trans    &trans              &trans               &trans      &kp PAGE_UP        &kp HOME     &kp UP_ARROW          &kp END    &trans      &trans
+&kp PRINTSCREEN    &trans  &trans    &trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)    &kp PAGE_DOWN  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW    &trans  &kp DELETE
+                                   &kp LGUI              &trans           &kp RETURN        &kp SPACE          &trans         &kp RALT
             >;
         };
     };
